@@ -1,0 +1,7 @@
+[package]
+name = "boba"
+version = "0.1.0"
+authors = ["hello@kevinpei.com"]
+
+[dependencies]
+pancurses = "0.14"
