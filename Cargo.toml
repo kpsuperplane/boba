@@ -5,3 +5,11 @@ authors = ["hello@kevinpei.com"]
 
 [dependencies]
 pancurses = "0.14"
+serde = "1.0"
+serde_json = "1.0"
+serde_derive = "1.0.27"
+regex = "0.2"
+
+[[bin]]
+name = "highlighter"
+path = "src/highlighter.rs"
